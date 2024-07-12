@@ -57,17 +57,7 @@ export function Home() {
 
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
-        {/*<View style={styles.header}>
-            <Image style={styles.menuIcon} source={require('../assets/Menu.png')}/>
-            <Image style={styles.logo} source={require('../assets/Logo.png')}/>
-            <View style={styles.headerRight}>
-                <Image style={styles.menuIcon} source={require('../assets/Search.png')}/>
-                <TouchableOpacity onPress={handleNavigate}>
-                    <Image style={styles.menuIcon} source={require('../assets/shoppingBag.png')}/>
-                </TouchableOpacity>
-                
-            </View>
-        </View>*/}
+        
         <View style={styles.header}>
             <Text style={styles.heading}>OUR STORY</Text>
             <View style={styles.subheaderRight}>
